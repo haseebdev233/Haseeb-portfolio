@@ -1,0 +1,73 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Spacing Fix */
+section {
+  @apply px-4 sm:px-6 lg:px-8;
+}
+
+.container {
+  @apply px-4 sm:px-6 lg:px-8;
+}
+
+/* Responsive Padding System */
+.px-global {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .px-global {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .px-global {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .px-global {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* Apply to all sections */
+#home, #about, #projects, #skills, #contact {
+  @apply px-global;
+}
+
+/* Custom Container */
+.custom-container {
+  @apply w-full max-w-7xl mx-auto px-global;
+}
+
+/* Scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b1220;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #115e59;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0d9488;
+}
