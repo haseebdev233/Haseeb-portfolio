@@ -115,7 +115,7 @@ const index = () => {
                                 <div>
                                     <h4 className="text-gray-300 font-medium text-sm sm:text-base">Email</h4>
                                     <a href="mailto:haseebdev233@gmail.com" className="text-gray-400 hover:text-teal-400 transition-colors text-sm sm:text-base">
-                                        muhammadhaseeb5@gmail.com
+                                        haseebdev233@gmail.com
                                     </a>
                                 </div>
                             </li>

@@ -28,13 +28,13 @@ const index = () => {
     };
 
     const contactInfo = [
-        { icon: <MailOutlined />, text: 'muhammadhaseeb5@gmail.com' },
+        { icon: <MailOutlined />, text: 'haseebdev233@gmail.com' },
         { icon: <PhoneOutlined />, text: '+92 328 051 5797' },
         { icon: <EnvironmentOutlined />, text: 'Faisalabad, Pakistan' }
     ];
 
     const socialLinks = [
-        { icon: <GithubOutlined />, url: '#', label: 'GitHub' },
+        { icon: <GithubOutlined />, url: 'https://github.com/haseebdev233', label: 'GitHub' },
         { icon: <LinkedinOutlined />, url: '#', label: 'LinkedIn' },
         { icon: <TwitterOutlined />, url: '#', label: 'Twitter' }
     ];
