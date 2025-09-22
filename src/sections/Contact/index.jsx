@@ -119,7 +119,7 @@ const index = () => {
                                     onChange={handleChange}
                                     required
                                     className="w-full px-4 py-3 bg-slate-700 border border-teal-800/40 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
-                                    placeholder="John Doe"
+                                    placeholder="Haseeb dev"
                                 />
                             </div>
 
@@ -133,7 +133,7 @@ const index = () => {
                                     onChange={handleChange}
                                     required
                                     className="w-full px-4 py-3 bg-slate-700 border border-teal-800/40 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
-                                    placeholder="john@example.com"
+                                    placeholder="Haseebdev233@example.com"
                                 />
                             </div>
 
