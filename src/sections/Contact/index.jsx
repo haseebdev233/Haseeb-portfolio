@@ -35,8 +35,8 @@ const index = () => {
 
     const socialLinks = [
         { icon: <GithubOutlined />, url: 'https://github.com/haseebdev233', label: 'GitHub' },
-        { icon: <LinkedinOutlined />, url: '#', label: 'LinkedIn' },
-        { icon: <TwitterOutlined />, url: '#', label: 'Twitter' }
+        { icon: <LinkedinOutlined />, url: 'https://www.linkedin.com/in/muhammad-haseeb-shahzad-110172332/', label: 'LinkedIn' },
+        { icon: <TwitterOutlined />, url: 'https://x.com/HaseebShah233', label: 'Twitter' }
     ];
 
     return (

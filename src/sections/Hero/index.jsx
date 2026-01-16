@@ -137,9 +137,9 @@ const Hero = () => {
           >
             {[
               { Icon: FaGithub, href: 'https://github.com/', label: 'GitHub' },
-              { Icon: FaLinkedinIn, href: 'https://www.linkedin.com/in/', label: 'LinkedIn' },
-              { Icon: FaTwitter, href: 'https://twitter.com/', label: 'Twitter' },
-              { Icon: FaGlobe, href: 'https://yourdomain.com', label: 'Website' }
+              { Icon: FaLinkedinIn, href: 'https://www.linkedin.com/in/muhammad-haseeb-shahzad-110172332/', label: 'LinkedIn' },
+              { Icon: FaTwitter, href: 'https://x.com/HaseebShah233', label: 'Twitter' },
+              { Icon: FaGlobe, href: 'https://haseeb-portfolio-net.netlify.app/', label: 'Website' }
             ].map(({ Icon, href, label }, i) => (
               <motion.a
                 key={label}
