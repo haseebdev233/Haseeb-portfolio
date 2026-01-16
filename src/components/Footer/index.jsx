@@ -53,10 +53,10 @@ const index = () => {
                         <div className="flex gap-3 sm:gap-4">
                             {[
                                 { icon: <FaGithub />, url: 'https://github.com/haseebdev233', color: 'hover:text-emerald-400' },
-                                { icon: <FaLinkedinIn />, url: '#', color: 'hover:text-emerald-300' },
-                                { icon: <FaTwitter />, url: '#', color: 'hover:text-emerald-300' },
-                                { icon: <FaInstagram />, url: '#', color: 'hover:text-emerald-400' },
-                                { icon: <FaDribbble />, url: '#', color: 'hover:text-emerald-300' }
+                                { icon: <FaLinkedinIn />, url: 'https://www.linkedin.com/in/muhammad-haseeb-shahzad-110172332/', color: 'hover:text-emerald-300' },
+                                { icon: <FaTwitter />, url: 'https://x.com/HaseebShah233', color: 'hover:text-emerald-300' },
+                                { icon: <FaInstagram />, url: 'https://www.instagram.com/m.haseeb.233/', color: 'hover:text-emerald-400' },
+                                { icon: <FaDribbble />, url: 'https://haseeb-portfolio-net.netlify.app/', color: 'hover:text-emerald-300' }
                             ].map((social, index) => (
                                 <motion.a
                                     key={index}
